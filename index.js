@@ -88,6 +88,9 @@ const fetchData = async () => {
                 }
 
                 imageContainer.addEventListener("mouseover", function(){
+
+                    charImage.style.transform = "scale(1.5)"
+
                     if(element.affiliation === "Army of Frieza"){
                         imageContainer.style.backgroundColor = "violet";
                     }
@@ -115,6 +118,7 @@ const fetchData = async () => {
                 })
                 imageContainer.addEventListener("mouseout", function(){
                     imageContainer.style.backgroundColor = "";
+                    charImage.style.transform = ""
                 })
 
             });
