@@ -78,13 +78,15 @@ body{
     transition: 0.5s ease-in;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .text-container{
     background-color: black;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
