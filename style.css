@@ -21,6 +21,21 @@ body{
     font-size: 15px;
     align-items: center;
 }
+.header h1{
+    animation: blink 0.5s linear infinite;
+}
+@keyframes blink{
+    0% { color: yellow; }
+    100% { color: orange; }
+}
+.dragon-ball{
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 .char-img{
     max-width: 300px;
     height: 300px;
