@@ -6,7 +6,7 @@
     font-family: "Roboto Flex", sans-serif; 
 }
 body{
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(237, 239, 255);
     height: 100%;
 }
 .header{
@@ -20,11 +20,10 @@ body{
     gap: 1rem;
     font-size: 15px;
     align-items: center;
-    margin: 20px;
-    border-radius: 10px;
     flex-wrap: wrap;
 }
-.header h1{
+.header p{
+    font-size: 20px;
     text-align: center;
     animation: blink 0.5s linear infinite;
 }

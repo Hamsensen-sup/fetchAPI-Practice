@@ -5,6 +5,7 @@ const fetchData = async () => {
             const json = await response.json();
     
             const characters = json.items;
+            
     
             characters.forEach(element => {
                 const container = document.createElement('div');
